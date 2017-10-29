@@ -1,0 +1,10 @@
+var debug = require('debug')('express-example');
+var app = require('../server');
+app.set('port', process.env.PORT || 3000);
+
+
+	var server = app.listen(app.get('port'), function() {
+  		// Save a log of the listening to the debugger
+  		console.log("listening right now")
+    	debug('Express server listening on port ' + server.address().port);
+  });
