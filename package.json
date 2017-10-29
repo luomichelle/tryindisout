@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
     "async": "^1.4.2",
     "axios": "^0.15.2",
     "bcryptjs": "^2.3.0",
