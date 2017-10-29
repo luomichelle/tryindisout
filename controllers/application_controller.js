@@ -58,7 +58,7 @@ var sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
 
 
 router.post('/send',function(req,res){
-
+  console.log("go")
 
   var request = sg.emptyRequest({
     method: 'POST',
