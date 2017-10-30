@@ -1,4 +1,4 @@
-# Setup Guide
+# Sendgrid Setup Guide
 
 This guide has been adapted from https://devcenter.heroku.com/articles/sendgrid#setup-api-key-environment-variable
 
